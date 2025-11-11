@@ -12,24 +12,19 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
+
 @app.get("/")
 def root():
     return {"message": "Calculator is running!"}
 
 
-#Calculator 
+# Calculator
 
 ops = {"+": add, "-": subtract, "*": multiply, "/": divide}
 
+
 @app.get("/calculate")
 def calculate(num1: float, num2: float, operation: str):
-   if operation not in ops:
-       return {"error": "Invalid operation"}
-   return {"result": ops[operation](num1, num2)}
-    
-
-
-
-
-    
-    
+    if operation not in ops:
+        return {"error": "Invalid operation"}
+    return {"result": ops[operation](num1, num2)}

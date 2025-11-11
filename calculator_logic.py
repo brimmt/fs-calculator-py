@@ -1,21 +1,24 @@
 def add(num1, num2):
     return num1 + num2
 
+
 def subtract(num1, num2):
     return num1 - num2
+
 
 def multiply(num1, num2):
     return num1 * num2
 
-def divide(num1,num2):
+
+def divide(num1, num2):
 
     try:
         return num1 / num2
     except ZeroDivisionError:
         return "Cant divide by 0"
-    
 
-''' while True:
+
+""" while True:
 
     num1 = float(input("Enter a number: "))
     num2 = float(input("Enter another number: "))
@@ -36,4 +39,4 @@ def divide(num1,num2):
     else:
         result = 'Invalid operator'
 
-    print(f"Your result is: {result}") '''
+    print(f"Your result is: {result}") """
