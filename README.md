@@ -36,7 +36,7 @@ It’s intentionally simple — built to ensure that the basics (input, output, 
 ## How to Run
 
 ###  Clone the repo
-```bash
+***bash***
 git clone https://github.com/<your-username>/fs-calculator-py.git
 cd fs-calculator-py
 
@@ -52,3 +52,25 @@ API will run at http://127.0.0.1:8000/
 
 ### Open the frontend
 Open frontend/index.html in your browser or run it with VS Code Live Server.
+
+---
+
+## Testing Overview
+
+This project includes:
+- **Unit tests** tests for each calculator function (add, subtract, etc.)
+- **Integration tests** endpoint tests for /calculate using FastAPI’s TestClient
+
+### Run all test
+
+pytest -v
+
+---
+
+## Part of the Full Stack Lab
+
+This repository is part of my Full Stack Learning Lab, a personal sandbox for:
+- Practicing Python, FastAPI, and JavaScript fundamentals
+- Reinforcing testing, clean code, and Git workflow
+- Building portfolio-ready mini projects with real structure
+
