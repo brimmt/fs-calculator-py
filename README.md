@@ -1,5 +1,5 @@
-# 🧮 Full Stack Calculator | Foundations Practice (FastAPI + JavaScript)
-
+# Full Stack Calculator | Foundations Practice (FastAPI + JavaScript)
+![CI](https://github.com/brimmt/fs-calculator-py/actions/workflows/ci.yml/badge.svg)
 ![Calculator Screenshot](frontend/calculator-py.png)
 
 This project is part of my **Full Stack Lab** — a collection of small, focused builds across my tech stack.  
