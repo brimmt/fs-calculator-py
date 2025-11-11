@@ -3,3 +3,4 @@ uvicorn
 pytest
 black
 flake8
+httpx
