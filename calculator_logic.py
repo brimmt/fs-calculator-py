@@ -22,8 +22,7 @@ def divide(num1, num2):
 
     num1 = float(input("Enter a number: "))
     num2 = float(input("Enter another number: "))
-    opp = input("Choose an operator(+,-,*,/) or 'exit to quit: ")
-    
+    opp = input("Choose an operator(+,-,*,/) or 'exit to quit: ")   
     if opp.lower() == "exit":
         print("Closing calulcator, Bye!")
         break

@@ -1,4 +1,3 @@
-import pytest
 from calculator_logic import add, subtract, multiply, divide
 
 
